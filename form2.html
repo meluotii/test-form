@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <label for="FirstName">Имя</label>
+        <input type="text" name="firstName" id="FirstName" placeholder="Enter first name" style="width: 100%;" required>
+        <br>
+        <br>
+
+        <label for="LastName">Фамилия</label>
+        <input type="text" name="lastName" id="LastName" placeholder="Enter last name" style="width: 100%;" required>
+        <br>
+        <br>
+
+        <label>
+            <input type="radio" name="sex" value="man">
+            Мужской
+        </label>
+        <br>
+        <br>
+
+
+        <label>
+            <input type="radio" name="sex" value="woman">
+            Женский</label>
+        <br>
+        <br>
+
+        <input type="radio" name="sex" value="other" id="other">
+        <label for="other">Другой</label>
+        <br>
+        <br>
+
+        <label>
+            Я верю в Бога
+            <input type="checkbox" name="belive">
+        </label>
+        <br>
+        <br>
+
+        <label for="city">Выберите город</label>
+        <select name="city" id="city">
+            <option value="" disabled selected>Select city</option>
+            <option value="chernihiv">Chernihiv</option>
+            <option value="kyiv">Kyiv</option>
+            <option value="nijin">Nijin</option>
+        </select>
+        <br>
+        <br>
+
+        Биография
+        <textarea name="bio" style="width: 100%; height: 50px;" placeholder="My bio"></textarea>
+        <br>
+        <br>
+
+        <input type="submit" value="Send data">
+        <input type="reset" value="Other action">
+
+    </form>
+
+</body>
+
+</html>
